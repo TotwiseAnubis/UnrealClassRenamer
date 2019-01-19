@@ -6,6 +6,14 @@ A simple tool to rename classes in Unreal Engine 4 (only for Windows)
 **PLEASE WATCH THE TUTORIAL BEFORE USING THIS TOOL**
 https://youtu.be/MThGzoHBJZU
 
+# What it does
+
+It
+
+1. Renames the class into the Visual Studio project
+2. Add/modify the redirector in the DefaultEngine.ini file
+3. and delete/regenerate intermediate folder and vs solution.
+
 
 # DISCLAIMER - PLEASE BE CAREFUL WHEN USING THIS -
 
@@ -15,9 +23,11 @@ I created this tool for personal use and I'm sharing it for you to use.
 However, **I don't take responability for potential issues or damage your project can have from using this tool**.
 I completely recommend you to **backup your project before using this tool**. You can use tools like SVN, Git, Perforce, etc, and commit or branch everytime you plan to use the tool. Then test everything goes ok, etc.
 
-# What about Vissual Assist or Resharper?
 
-The thing is that they only change the name in source code, and even so they fail often to update the #include references often. They don't create the redirectors for you (needed if you have something in the editor using your class) and they don't regenerate the intermediate and visual studio projects for you.
+# Why not just use Vissual Assist or Resharper for this?
+
+The thing is that they only change the name in source code, and even so they often fail to update the #include references. They don't create the redirectors for you (needed if you have something in the editor using your class) and they don't regenerate the intermediate and visual studio projects for you.
+
 
 # Feedback, Bug Reports, Feature Requests, etc
 

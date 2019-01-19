@@ -8,3 +8,13 @@ C:\Users\Anubis\source\repos\UnrealClassRenamer\UnrealClassRenamer\obj\Release\U
 C:\Users\Anubis\source\repos\UnrealClassRenamer\UnrealClassRenamer\obj\Release\UnrealClassRenamer.exe
 C:\Users\Anubis\source\repos\UnrealClassRenamer\UnrealClassRenamer\obj\Release\UnrealClassRenamer.pdb
 C:\Users\Anubis\source\repos\UnrealClassRenamer\UnrealClassRenamer\obj\Release\UnrealClassRenamer.csprojAssemblyReference.cache
+D:\MonkeyDonkey\UEClassRenamer\UnrealClassRenamer\bin\Release\UnrealClassRenamer.exe.config
+D:\MonkeyDonkey\UEClassRenamer\UnrealClassRenamer\bin\Release\UnrealClassRenamer.exe
+D:\MonkeyDonkey\UEClassRenamer\UnrealClassRenamer\bin\Release\UnrealClassRenamer.pdb
+D:\MonkeyDonkey\UEClassRenamer\UnrealClassRenamer\obj\Release\UnrealClassRenamer.csprojAssemblyReference.cache
+D:\MonkeyDonkey\UEClassRenamer\UnrealClassRenamer\obj\Release\UnrealClassRenamer.Form1.resources
+D:\MonkeyDonkey\UEClassRenamer\UnrealClassRenamer\obj\Release\UnrealClassRenamer.Properties.Resources.resources
+D:\MonkeyDonkey\UEClassRenamer\UnrealClassRenamer\obj\Release\UnrealClassRenamer.csproj.GenerateResource.cache
+D:\MonkeyDonkey\UEClassRenamer\UnrealClassRenamer\obj\Release\UnrealClassRenamer.csproj.CoreCompileInputs.cache
+D:\MonkeyDonkey\UEClassRenamer\UnrealClassRenamer\obj\Release\UnrealClassRenamer.exe
+D:\MonkeyDonkey\UEClassRenamer\UnrealClassRenamer\obj\Release\UnrealClassRenamer.pdb

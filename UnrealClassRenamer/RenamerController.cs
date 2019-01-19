@@ -191,8 +191,11 @@ namespace UnrealClassRenamer
             FixConfigFile();
             RegenerateFolders();
             MessageBox.Show("Finished!", "Class Renamed", MessageBoxButtons.OK);
+        }
 
-            Application.Exit();
+        public void RegenerateProject()
+        {
+            RegenerateFolders();
         }
 
         private void RegenerateFolders()
@@ -228,14 +231,9 @@ namespace UnrealClassRenamer
 
             string regenerateCommandLine = Registry.GetValue(@"HKEY_CLASSES_ROOT\\Unreal.ProjectFile\\shell\\rungenproj\\command", "", "ERROR").ToString();
             regenerateCommandLine = regenerateCommandLine.Replace("%1", uprojectFilePath);
-            // regenerateCommandLine = regenerateCommandLine.Replace("\"", "");
 
             string commandToExecute = regenerateCommandLine.Split(new string[] { "/projectfiles"}, StringSplitOptions.None)[0];
             string commandArguments = "/projectfiles" + regenerateCommandLine.Split(new string[] { "/projectfiles" }, StringSplitOptions.None)[1];
-
-            Console.WriteLine("full: " + regenerateCommandLine);
-            Console.WriteLine("command:  " + commandToExecute);
-            Console.WriteLine("arg:  " + commandArguments);
 
             var psi = new ProcessStartInfo(@regenerateCommandLine)
             {
@@ -252,7 +250,7 @@ namespace UnrealClassRenamer
 
             if (!Directory.Exists(configFolder))
             {
-                Directory.CreateDirectory(configFolder);
+                DirectoryInfo info = Directory.CreateDirectory(configFolder);
             }
 
             string configFilePath = configFolder + "DefaultEngine.ini";
@@ -313,9 +311,7 @@ namespace UnrealClassRenamer
             string sourceFolder = selectedFolderURL + "\\Source\\";
 
             string[] allCPPFiles = Directory.GetFiles(sourceFolder, "*.cpp", SearchOption.AllDirectories);
-            string[] allHFiles = Directory.GetFiles(sourceFolder, "*.h", SearchOption.AllDirectories);
-
-            
+            string[] allHFiles = Directory.GetFiles(sourceFolder, "*.h", SearchOption.AllDirectories);            
 
             allHFiles.ToList().ForEach(st =>
             {
@@ -345,7 +341,5 @@ namespace UnrealClassRenamer
                 }
             });
         }
-
-
     }
 }

@@ -39,18 +39,19 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox_OldClassName
             // 
-            this.textBox_OldClassName.Location = new System.Drawing.Point(33, 99);
+            this.textBox_OldClassName.Location = new System.Drawing.Point(33, 68);
             this.textBox_OldClassName.Name = "textBox_OldClassName";
             this.textBox_OldClassName.Size = new System.Drawing.Size(237, 20);
             this.textBox_OldClassName.TabIndex = 0;
             // 
             // textBox_NewClassName
             // 
-            this.textBox_NewClassName.Location = new System.Drawing.Point(33, 146);
+            this.textBox_NewClassName.Location = new System.Drawing.Point(286, 68);
             this.textBox_NewClassName.Name = "textBox_NewClassName";
             this.textBox_NewClassName.Size = new System.Drawing.Size(237, 20);
             this.textBox_NewClassName.TabIndex = 1;
@@ -58,7 +59,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(33, 80);
+            this.label1.Location = new System.Drawing.Point(33, 49);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(82, 13);
             this.label1.TabIndex = 2;
@@ -68,7 +69,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(33, 130);
+            this.label2.Location = new System.Drawing.Point(286, 52);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(88, 13);
             this.label2.TabIndex = 3;
@@ -87,7 +88,7 @@
             // label_FolderURL
             // 
             this.label_FolderURL.AutoSize = true;
-            this.label_FolderURL.Location = new System.Drawing.Point(30, 47);
+            this.label_FolderURL.Location = new System.Drawing.Point(207, 17);
             this.label_FolderURL.Name = "label_FolderURL";
             this.label_FolderURL.Size = new System.Drawing.Size(212, 13);
             this.label_FolderURL.TabIndex = 5;
@@ -95,7 +96,7 @@
             // 
             // btnRename
             // 
-            this.btnRename.Location = new System.Drawing.Point(150, 183);
+            this.btnRename.Location = new System.Drawing.Point(33, 94);
             this.btnRename.Name = "btnRename";
             this.btnRename.Size = new System.Drawing.Size(120, 23);
             this.btnRename.TabIndex = 6;
@@ -107,11 +108,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.DarkRed;
-            this.label3.Location = new System.Drawing.Point(17, 236);
+            this.label3.Location = new System.Drawing.Point(15, 256);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(300, 20);
+            this.label3.Size = new System.Drawing.Size(212, 13);
             this.label3.TabIndex = 7;
             this.label3.Text = "IMPORTANT, READ BEFORE USE!!";
             // 
@@ -119,11 +120,11 @@
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.DarkRed;
-            this.label4.Location = new System.Drawing.Point(18, 272);
+            this.label4.Location = new System.Drawing.Point(13, 273);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(292, 15);
+            this.label4.Size = new System.Drawing.Size(258, 13);
             this.label4.TabIndex = 8;
             this.label4.Text = "1. Close Unreal and Visual Studio before run";
             this.label4.Click += new System.EventHandler(this.label4_Click);
@@ -132,11 +133,11 @@
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.DarkRed;
-            this.label5.Location = new System.Drawing.Point(18, 299);
+            this.label5.Location = new System.Drawing.Point(14, 286);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(299, 15);
+            this.label5.Size = new System.Drawing.Size(268, 13);
             this.label5.TabIndex = 9;
             this.label5.Text = "2. Backup Before use (Git, Perforce, SVN, etc)";
             // 
@@ -144,19 +145,30 @@
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.DarkRed;
-            this.label6.Location = new System.Drawing.Point(18, 327);
+            this.label6.Location = new System.Drawing.Point(14, 299);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(230, 15);
+            this.label6.Size = new System.Drawing.Size(209, 13);
             this.label6.TabIndex = 10;
             this.label6.Text = "3. May be Buggy, PLEASE BACKUP";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(36, 146);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(154, 23);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "REGENERATE PROJECT";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(332, 385);
+            this.ClientSize = new System.Drawing.Size(563, 328);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -188,6 +200,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button button1;
     }
 }
 

@@ -1,0 +1,10 @@
+C:\Users\Anubis\source\repos\UnrealClassRenamer\UnrealClassRenamer\bin\Debug\UnrealClassRenamer.exe.config
+C:\Users\Anubis\source\repos\UnrealClassRenamer\UnrealClassRenamer\bin\Debug\UnrealClassRenamer.exe
+C:\Users\Anubis\source\repos\UnrealClassRenamer\UnrealClassRenamer\bin\Debug\UnrealClassRenamer.pdb
+C:\Users\Anubis\source\repos\UnrealClassRenamer\UnrealClassRenamer\obj\Debug\UnrealClassRenamer.csprojAssemblyReference.cache
+C:\Users\Anubis\source\repos\UnrealClassRenamer\UnrealClassRenamer\obj\Debug\UnrealClassRenamer.Form1.resources
+C:\Users\Anubis\source\repos\UnrealClassRenamer\UnrealClassRenamer\obj\Debug\UnrealClassRenamer.Properties.Resources.resources
+C:\Users\Anubis\source\repos\UnrealClassRenamer\UnrealClassRenamer\obj\Debug\UnrealClassRenamer.csproj.GenerateResource.cache
+C:\Users\Anubis\source\repos\UnrealClassRenamer\UnrealClassRenamer\obj\Debug\UnrealClassRenamer.csproj.CoreCompileInputs.cache
+C:\Users\Anubis\source\repos\UnrealClassRenamer\UnrealClassRenamer\obj\Debug\UnrealClassRenamer.exe
+C:\Users\Anubis\source\repos\UnrealClassRenamer\UnrealClassRenamer\obj\Debug\UnrealClassRenamer.pdb
